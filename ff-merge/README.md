@@ -33,3 +33,4 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 - `git merge <branch>`
 - `git diff <branchA> <branchB>`
 - `git log --oneline --graph --all`
+- `gitk --all`

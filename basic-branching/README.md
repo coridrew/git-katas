@@ -32,3 +32,4 @@ Hint: `git checkout` will make you switch from one branch to another.
 - `git log --oneline --graph`
 - `git branch`
 - `git diff`
+- `gitk --all`

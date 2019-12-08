@@ -36,9 +36,3 @@ If you want to signal to git that a file needs to be removed from git, but still
 - `git commit`
 - `git commit -m`
 - `git rm --cached`
-
-
-## Aliases
-You can set up aliases as such:
-`git config --global alias.lol 'log --oneline --graph --all'`
-This might be useful to you.

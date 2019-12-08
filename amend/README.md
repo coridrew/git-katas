@@ -22,3 +22,4 @@ Sometimes we just forget something obvious that we want to fix quickly.
 - `git add`
 - `git log --oneline --graph`
 - `git commit --amend`
+- `gitk --all`

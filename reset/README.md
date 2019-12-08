@@ -29,6 +29,7 @@ We use reset to unstage change, but we can also do many more different things.
 - `git reset --mixed`
 - `git reset --hard`
 - `git revert`
+- `gitk --all`
 
 ## Further explanation
 

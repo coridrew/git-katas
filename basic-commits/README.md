@@ -54,3 +54,4 @@ For the windows peeps:
 Other editor options:
 - `git config --global core.editor "atom --wait"`
 - `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst"`
+- `gitk --all`

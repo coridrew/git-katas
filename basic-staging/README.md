@@ -58,9 +58,10 @@ You live in your own repository. There is a file called `file.txt`.
 - `git log --oneline --graph`
 - `git reset HEAD `
 - `git checkout`
+- `gitk --all`
 
 ## Aliases
 
 You can set up aliases as such:
 `git config --global alias.lol 'log --oneline --graph --all'`
-This might be useful to you.
+This might be useful to you. (I prefer `gitk` over `git log` for inspecting the graph. Also, `git lol` should already be in your aliases, from the setup.)

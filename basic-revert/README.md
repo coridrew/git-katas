@@ -28,3 +28,4 @@ You again live in your own branch, this time we will revert some change on a bra
 - `git revert <sha1>`
 - `git diff <branchA> <branchB>`
 - `git log --oneline --graph --all`
+- `gitk --all`

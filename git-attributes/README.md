@@ -8,27 +8,23 @@ you can specify what program that should be used for showing the diff. The follo
 are for GNU/Linux platforms and Mac.
 
 ## Setup:
-
 1. Run `. setup.sh`
 
 ## The task
 
 1. Create a `.gitattributes` file with the following content:
-
     `*.txt      text=auto eol=lf working-tree-encoding=UTF-8`
 
 2. Run `git add file1.txt .gitattributes` and you should see
-
     `warning: CRLF will be replaced by LF in file1.txt.`
 
 3. Try to experiment changing `eol` to either `auto` or `crlf`. Can you explain
    why only one of them changes the line endings of the file, i.e., gives a
-   similar warning as above.
+   similar warning as above. PLEASE AVOID LETTING GIT CHANGE LINE ENDINGS IF YOU CAN.
 
 4. Some files must have DOS (CRLF) line endings in order to work. One such example
    is bat-files, e.g., Jenkins requires the line endings in bat-files to be CRLF before
    being able to run them.
-
    `*.bat      text=auto eol=crlf`
 
    A similar problem is present with Linux scripts using a shebang in the first line to point
@@ -39,22 +35,20 @@ are for GNU/Linux platforms and Mac.
    and you can set programs to show the diff. You need to have installed exif (or exiftool)
    for this to work. If you don't have a png image on your machine, you can use:
    https://www.freepngimg.com/download/mario/20698-7-mario-transparent-background.png
-
     `*.png diff=exif`
 
 6. Replace the image, e.g., using this one which is a smaller version of the image
   https://www.freepngimg.com/download/temp/20698-7-mario-transparent-background_400x400.png
-
   Now, run git diff,and you can see which attributes that were changed.
 
 7. The line endings can also be controlled through 
    [`git config`](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration):
-
-    git config --global core.autocrlf input
+    `git config --global core.autocrlf input`
   
    This will make sure that the repository always contains LF line endings, as line
    endings are converted to LF on pushes. The configuration can also be set to `true` 
-   and `false`. You can experiment a bit with this.
+   and `false`. You can experiment a bit with this, but I am personally against source 
+   control changing files like this.
 
 ## Useful commands
 

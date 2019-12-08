@@ -51,8 +51,8 @@ everything you need to be able to use Git effectively in your day to day life.
 - [Basic Cleaning](./basic-cleaning/README.md)
 - [Amend](./amend/README.md)
 - [Reorder the History](./reorder-the-history/README.md)
-- [Advanced Rebase Interactive](./advanced-rebase-interactive/README.md)
-- [Basic Stashing](./basic-stashing/README.md)
+- [Detached Head State](./detached-head/README.md)
+- [.gitignore](./ignore/README.md)
 
 ## Contributing
 

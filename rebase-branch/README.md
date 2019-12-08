@@ -22,3 +22,4 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 - `git rebase <branch-name>`
 - `git log --oneline --graph --all`
 - `git merge <branch-name>`
+- `gitk --all`
